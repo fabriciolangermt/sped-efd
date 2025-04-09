@@ -17,7 +17,8 @@ $layouts = [
     '015' => ['versao' => '1.14', 'inicio' => '01012021', 'fim' => '31122021'],
     '016' => ['versao' => '1.15', 'inicio' => '01012022', 'fim' => '31122022'],
     '017' => ['versao' => '1.16', 'inicio' => '01012023', 'fim' => '31122023'],
-    '018' => ['versao' => '1.17', 'inicio' => '01012024', 'fim' => ''],
+    '018' => ['versao' => '1.17', 'inicio' => '01012024', 'fim' => '31122024'],
+    '019' => ['versao' => '1.18', 'inicio' => '01012025', 'fim' => ''],
 ];
 
 file_put_contents(__DIR__.'/../storage/layouts/ICMSIPI/vigencias.json', json_encode($layouts, JSON_PRETTY_PRINT));
